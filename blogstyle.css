@@ -23,6 +23,7 @@
     font-weight: 300;
     font-size: 18px;
 }
+
 .social-media > img {
     margin-left: 5px;
     height: 24px;
@@ -31,8 +32,9 @@
 .blog-info {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 66px;
+    padding-top: 66px;
 }
+
 .blog-card {
     min-width: 100px;
     width: calc(100% / 4);
