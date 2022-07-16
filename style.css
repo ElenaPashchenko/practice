@@ -5,7 +5,12 @@
 }
 
 body {
-    font-family: "Open sans";
+    font-family: "Open sans", sans-serif;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: calc(100vh - 66px);
 }
 
 .header {
@@ -95,4 +100,10 @@ body {
    background-color: #16595A;
    margin-top: 45px;
 
+}
+
+@media screen and (max-width: 400px) {
+    .country-card {
+        width: 100%;
+    }
 }
