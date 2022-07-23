@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+.main-cont {
+    padding: 0 50px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -14,6 +22,26 @@
     background-color: white;
     z-index: 1;
     width: 100%;
+
+}
+
+.title-cont {
+    padding: 96px 0 56px 10vw;
+}
+
+.sticker {
+    width: 46%;
+    height: 656px;
+    background-color: #F2F5F1;
+    position: absolute;
+    top: 147px;
+    z-index: -1;
+    left: 0;
+}
+
+#blya {
+    font-size: 72px;
+    
 }
 
 .navigation > a {
@@ -32,25 +60,105 @@
 .blog-info {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 66px;
+    
 }
+
+.menu {
+    width: calc(100% / 3);
+    padding-left: 35px;
+    margin-top: 48px;
+    position: relative;
+    
+     
+}
+
+.btn-menu {
+    min-width: 100px;
+    text-align: left;
+    border-radius: 50px;
+    width: 57%;
+    border: 1px solid #E4E4E4;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn-menu:not(:disabled):hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+.active {
+    border-color: #63C0C2;
+}
+
+.all-btn {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 14px;
+    color: #30ABAE;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.all-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 .blog-card {
     min-width: 100px;
-    width: calc(100% / 4);
+    width: calc(100% / 3);
+    padding: 48px 35px;
 }
 
 .blog-card > h3 {
-    padding-left: 17px;
-    padding-bottom: 40px;
+    font-size: 21px;
+    text-align: center;
 }
+
+.blog-card > span {
+    font-size: 12px;
+    line-height: 24px;
+    color: #C0C0C0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 29px;
+    
+}
+
 
 .blog-card > p {
     border-top: 2px solid #ED8651;
-    padding-left: 15px;
     line-height: 24px;
+    font-size: 14px;
 }
+
 
 .blog-card > img {
     width: 100%;
+}
+
+
+.title-bottom {
+    width: 100%;
+    height: 115px;
+    background-color: #F2F5F1;
+}
+
+#numeration {
+    text-align: center;
+    padding-top: 47px;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #AAAAAA;
+}
+
+.title-categories {
+    position: absolute;
+    top: -41px;
+    left: 46px;
 }

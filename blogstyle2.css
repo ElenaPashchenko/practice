@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+    border-bottom: 1px solid #C4C4C4;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.social-media > img {
+    margin-left: 5px;
+    height: 24px;
+}
+
+.navigation > a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.sticker {
+    position: absolute;
+    width: 918px;
+    height: 742px;
+    left: 2px;
+    top: 159px;
+    background: #F2F5F1;
+    z-index: -1;
+}
+
+.title-cont {
+    padding-top: 102px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.title-cont span {
+    color: #C4C4C4;
+    font-size: 32px;
+    margin: 0 35px;
+}
+
+.title-cont h1 {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.title-cont h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #C4C4C4;
+}
+
+.info-blog p {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    width: 441.14px;
+    height: 439px;
+    left: 204.86px;
+    top: 295px;
+    padding-left: 203px;
+}
+
+.image-car {
+    width: 711.46px;
+    height: 464px;
+    position: relative;
+    float: right;
+    top: 274px;
+    
+}
