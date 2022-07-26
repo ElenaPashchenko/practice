@@ -8,52 +8,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/flex.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <header class="header">
-        <nav class="navigation">
-            <a href="#">Main</a>
-            <a href="blog.html">Blog</a>
-            <a href="#">Contacts</a>
-        </nav>
-        <div class="social-media">
-            <img src="img/social-media/Facebook 1.png" alt="Facebook">
-            <img src="img/social-media/Instagram.svg" alt="Instagram">
-            <img src="img/social-media/Twitter.svg" alt="Twitter">
-        </div>
-    </header>
-
-    <div class="nature">
-        <h1>About travels</h1>
-        <img src="img/Photo.svg" alt="Nature">
+<header class="header">
+    <nav class="navigation">
+        <a href="#">Main</a>
+        <a href="blog.html">Blog</a>
+        <a href="blog2.html">Contacts</a>
+    </nav>
+    <div class="social-media">
+        <img src="img/social-media/Facebook 1.png" alt="Facebook">
+        <img src="img/social-media/Instagram.svg" alt="Instagram">
+        <img src="img/social-media/Twitter.svg" alt="Twitter">
     </div>
+</header>
 
-    <div>
-        <h2 class="places-title">The most popular places</h2>
-        
-        <div class="places-container">
-            <div class="country-card">
-                <img src="img/countries/morocco.svg" alt="Morocco">
-                <h3>Marrakesh <span class="colorword">Morocco</span></h3>
-                <p>Марракеш - туристичний напрям №1 згідно з Travellers' Choice 2015 року. Це чарівне місце з безліччю ринків, садів, палаців та мечетей. Поки ви знайомитеся з тісними двориками та блукаєте вуличками історичної частини міста, день мине непомітно. Знайдіть спокій у безтурботних садах Мажорель або ж насолоджуйтеся красою старовинних мечетей міста.</p>
-            </div>
-            <div class="country-card">
-                <img src="img/countries/simreap.png" alt="Siem Reap">
-                <h3>Siem Reap <span class="colorword">Cambodia</span></h3>
-                <p>Коли ранкове світло заливає окуті зеленню храми та руїни Ангкор-Ват, звичайний світанок над містом Сіемреап здається незабутнім видовищем. Цей храмовий комплекс по праву вважається одним із найбільших у світі. Разом із "великою столицею", містом Ангкор-Тхом, побудованим в XII столітті, він є основним мотивом для відвідин міста Сіемреап, який в 2015 році посів друге місце в світі у номінації "Туристичний напрям" конкурсу Travellers' Choice.</p>
-            </div>
-            <div class="country-card">
-                <img src="img/countries/turkey.png" alt="Turkey">
-                <h3>Istanbul <span class="colorword">Turkey</span></h3>
-                <p>У Стамбулі, який цього року посів третє місце, зустрічаються Європа й Азія: чудова стародавня архітектура співіснує із сучасними ресторанами та нічним життям міста. Мечеті, базари й турецькі лазні Стамбула не дозволять вам нудьгувати. Перше, що слід відвідати - мечеть Султан-Ахмед-Ками (Блакитна мечеть), яку видно з різних куточків міста. Також можна пройтися Галагатським мостом, а потім звернути до Мініатюрки - парку, де зібрані мініатюрні пам'ятки Туреччини.</p>
-            </div>
-      
+<div class="nature">
+    <h1 class="tac w100 fw700">About travels</h1>
+    <img class="w100" src="img/Photo.svg" alt="Nature">
+</div>
+
+<div>
+    <h2 class="places-title tac fw700">The most popular places</h2>
+
+    <div class="d-flex fw-wrap">
+        <div class="country-card">
+            <img class="w100" src="img/countries/morocco.svg" alt="Morocco">
+            <h3>Marrakesh <span class="colorword">Morocco</span></h3>
+            <p>Марракеш - туристичний напрям №1 згідно з Travellers' Choice 2015 року. Це чарівне місце з безліччю
+                ринків, садів, палаців та мечетей. Поки ви знайомитеся з тісними двориками та блукаєте вуличками
+                історичної частини міста, день мине непомітно. Знайдіть спокій у безтурботних садах Мажорель або ж
+                насолоджуйтеся красою старовинних мечетей міста.</p>
         </div>
+        <div class="country-card">
+            <img class="w100" src="img/countries/simreap.png" alt="Siem Reap">
+            <h3>Siem Reap <span class="colorword">Cambodia</span></h3>
+            <p>Коли ранкове світло заливає окуті зеленню храми та руїни Ангкор-Ват, звичайний світанок над містом
+                Сіемреап здається незабутнім видовищем. Цей храмовий комплекс по праву вважається одним із найбільших у
+                світі. Разом із "великою столицею", містом Ангкор-Тхом, побудованим в XII столітті, він є основним
+                мотивом для відвідин міста Сіемреап, який в 2015 році посів друге місце в світі у номінації "Туристичний
+                напрям" конкурсу Travellers' Choice.</p>
+        </div>
+        <div class="country-card">
+            <img class="w100" src="img/countries/turkey.png" alt="Turkey">
+            <h3>Istanbul <span class="colorword">Turkey</span></h3>
+            <p>У Стамбулі, який цього року посів третє місце, зустрічаються Європа й Азія: чудова стародавня архітектура
+                співіснує із сучасними ресторанами та нічним життям міста. Мечеті, базари й турецькі лазні Стамбула не
+                дозволять вам нудьгувати. Перше, що слід відвідати - мечеть Султан-Ахмед-Ками (Блакитна мечеть), яку
+                видно з різних куточків міста. Також можна пройтися Галагатським мостом, а потім звернути до Мініатюрки
+                - парку, де зібрані мініатюрні пам'ятки Туреччини.</p>
+        </div>
+
     </div>
-    <footer class="footer">
-        
-    </footer>
+</div>
+<footer class="footer">
+
+</footer>
 </body>
 </html>
