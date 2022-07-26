@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+body {
+    font-family: "Open sans", sans-serif;
+}
+
 .social-media > img {
     margin-left: 5px;
     height: 24px;
@@ -39,8 +43,12 @@
     z-index: -1;
 }
 
+.text-cont {
+    padding: 40px 10% 0 10%;
+}
+
 .title-cont {
-    padding-top: 102px;
+    padding-top: 112px;
     margin-left: 10%;
     display: flex;
     align-items: center;
@@ -65,19 +73,16 @@
 
 .info-blog p {
     font-size: 16px;
-    font-family: 'Open Sans';
-    width: 441.14px;
-    height: 439px;
-    left: 204.86px;
-    top: 295px;
-    padding-left: 203px;
 }
 
 .image-car {
-    width: 711.46px;
-    height: 464px;
-    position: relative;
-    float: right;
-    top: 274px;
+    width: 100%;
+    padding-bottom: 15px; 
+}
+
+.image-car img {
+    width: 60%;
+    display: flex;
+    align-items: center;
     
 }
