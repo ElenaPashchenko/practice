@@ -20,8 +20,6 @@
 .title-cont {
     padding-top: 112px;
     margin-left: 10%;
-    display: flex;
-    align-items: center;
 }
 
 .title-cont span {
@@ -31,12 +29,10 @@
 }
 
 .title-cont h1 {
-    font-weight: 700;
     font-size: 72px;
 }
 
 .title-cont h2 {
-    font-weight: 700;
     font-size: 36px;
     color: #C4C4C4;
 }
@@ -46,13 +42,9 @@
 }
 
 .image-car {
-    width: 100%;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
 
 .image-car img {
     width: 60%;
-    display: flex;
-    align-items: center;
-    
 }

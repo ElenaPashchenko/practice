@@ -2,6 +2,26 @@
     display: flex;
 }
 
+.fd-clmn {
+    flex-direction: column;
+}
+
 .fw-wrap {
     flex-wrap: wrap;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
 }
